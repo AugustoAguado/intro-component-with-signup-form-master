@@ -1,0 +1,121 @@
+
+$font: 'Poppins', sans-serif;
+$DarkBlue: hsl(249, 10%, 26%);
+$GrayishBlue: hsl(246, 25%, 77%);
+$Blue: hsl(248, 32%, 49%);
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+
+@mixin form{
+    width: 80%;
+    height: 6rem;
+    font-size: 1.6rem;
+    color: $DarkBlue;
+    font-weight: 600;
+    border: 0.06rem solid hsl(249, 10%, 26%, 50%);
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+body{
+    background-color:$Red;
+    background-image: url(../images/bg-intro-mobile.png);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: $font;
+    &__text{
+        color:white;
+        margin:5rem 2rem 0 2rem;
+        &__title{
+            font-size: 3rem;
+        }
+        &__p{
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+            font-weight: 500;
+        }
+    }
+    &__claim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__offer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $Blue;
+        width: 80%;
+        height: 9rem;
+        font-size: 1.6rem;
+        border-radius: 1rem;
+        color: white;
+        box-shadow: 0rem 1rem 0rem 0rem rgba(37, 37, 37, 0.2) ;
+        margin: 4rem 0 2.5rem 0;
+        &__p{
+            margin: 0 5rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            line-height: 2.5rem;
+        }
+        &__span{
+            font-weight: 700;
+        }
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0rem 1rem 0rem 0rem rgba(37, 37, 37, 0.2) ;
+        border-radius: 1rem;
+        background-color: white;
+        width: 80%;
+        height: 48rem;
+        margin-bottom: 5rem;
+        
+        &__name{
+           @include form; 
+           margin-top: 3rem
+        }
+        &__lastName{
+            @include form;
+        }
+        &__email{
+            @include form; 
+        }
+        &__password{
+            @include form; 
+        }
+        &__button{
+            width: 88%;
+            height: 6rem;
+            background-color: $Green;
+            border: none;
+            border-radius: 1rem;
+            margin: 2rem 0;
+            color: white;
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            box-shadow: 0rem 0.4rem 0rem 0rem hsl(154, 58%, 46%) ;
+        }
+        &__span{
+            color: $GrayishBlue;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin: 0 3rem 2rem 3rem;
+            line-height: 2rem;
+        }
+        &__tas{
+            text-decoration: none;
+            color: $Red;
+            font-weight: 700;
+        }
+    }
+}

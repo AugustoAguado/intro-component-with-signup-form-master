@@ -1,0 +1,132 @@
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(../images/bg-intro-mobile.png);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.main__text {
+  color: white;
+  margin: 5rem 2rem 0 2rem;
+}
+.main__text__title {
+  font-size: 3rem;
+}
+.main__text__p {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  font-weight: 500;
+}
+.main__claim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(248, 32%, 49%);
+  width: 80%;
+  height: 9rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0rem 1rem 0rem 0rem rgba(37, 37, 37, 0.2);
+  margin: 4rem 0 2.5rem 0;
+}
+.main__offer__p {
+  margin: 0 5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+}
+.main__offer__span {
+  font-weight: 700;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0rem 1rem 0rem 0rem rgba(37, 37, 37, 0.2);
+  border-radius: 1rem;
+  background-color: white;
+  width: 80%;
+  height: 48rem;
+  margin-bottom: 5rem;
+}
+.main__form__name {
+  width: 80%;
+  height: 6rem;
+  font-size: 1.6rem;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+  border: 0.06rem solid hsla(249, 10%, 26%, 0.5);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+  margin-top: 3rem;
+}
+.main__form__lastName {
+  width: 80%;
+  height: 6rem;
+  font-size: 1.6rem;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+  border: 0.06rem solid hsla(249, 10%, 26%, 0.5);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.main__form__email {
+  width: 80%;
+  height: 6rem;
+  font-size: 1.6rem;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+  border: 0.06rem solid hsla(249, 10%, 26%, 0.5);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.main__form__password {
+  width: 80%;
+  height: 6rem;
+  font-size: 1.6rem;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+  border: 0.06rem solid hsla(249, 10%, 26%, 0.5);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.main__form__button {
+  width: 88%;
+  height: 6rem;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  color: white;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 0rem 0.4rem 0rem 0rem hsl(154, 58%, 46%);
+}
+.main__form__span {
+  color: hsl(246, 25%, 77%);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0 3rem 2rem 3rem;
+  line-height: 2rem;
+}
+.main__form__tas {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
