@@ -24,14 +24,37 @@
         <p class="main__offer__p"><span class="main__offer__span">Try it free 7 days </span>then $20/mo. thereafter</p>
       </div>
       <form action="" class="main__form">
+
+        <div class="main__form__singUp">
         <input class="main__form__name" type="text" placeholder="First Name ">
-        <input class="main__form__lastName" type="text" placeholder="Last Name ">
-        <input class="main__form__email" type="text" placeholder="Email Address">
-        <input class="main__form__password" type="password" placeholder="Password">
+        <span class="main__form__errorImg" ><img src="./images/icon-error.svg" alt=""></span>
+        <span class="main__form__errorSpan">First Name cannot be empty</span>
+        </div>
+        
+        <div class="main__form__singUp">
+          <input class="main__form__lastName" type="text" placeholder="Last Name ">
+          <span class="main__form__errorImg"><img src="./images/icon-error.svg" alt=""></span>
+          <span class="main__form__errorSpan" >Last Name cannot be empty</span>
+        </div>
+
+        <div class="main__form__singUp">
+          <input class="main__form__email" type="text" placeholder="Email Address">
+          <span class="main__form__errorImg"><img src="./images/icon-error.svg" alt=""></span>
+          <span class="main__form__errorSpan">Looks like this is not an email</span>
+        </div>
+        
+        <div class="main__form__singUp">
+          <input class="main__form__password" type="password" placeholder="Password">
+          <span class="main__form__errorImg"><img src="./images/icon-error.svg" alt=""></span>
+          <span class="main__form__errorSpan">Password cannot be empty</span>
+        </div>
+        
+
         <button class="main__form__button">Claim your free trial</button>
-        <span class="main__form__span">By clicking the button, you are agreeing to <br>our <a class="main__form__tas" href="">Terms and Services</a></span>
+        <span class="main__form__span">By clicking the button, you are agreeing to our <a class="main__form__tas" href="">Terms and Services</a></span>
       </form>
     </section>
   </main>
+  <script src="./main.js"></script>
 </body>
 </html>
